@@ -1,0 +1,60 @@
+* {
+  margin: 0
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+}
+
+h1, h2, p, div{
+  font-family: Helvetica;
+}
+
+.fancy {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #77f;
+  color: crimson
+}
+
+.square-border{
+  border: 3px solid rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 400px;
+  margin-left: 400px;
+  background-color: mediumseagreen;
+}
+
+#hi-username {
+  background: rgba(0,0,0,0.5);
+  color: green;
+  font-size:3rem
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: DarkSlateBlue;
+  height: 50px;
+  color: white;
+  font-size: 2rem
+}
